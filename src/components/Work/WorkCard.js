@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkCard = ({ work, index }) => {
   let greenBorder = {};
-  if (index == 0) {
+  if (index === 0) {
     greenBorder = {
       border: "2px dashed #27AE60",
       borderRadius: 30,
